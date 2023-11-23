@@ -17,7 +17,7 @@ source .venv/bin/activate
 #       how to handle the quotes, these are only required for zsh (assuming I
 #       will stay with zsh and bash).
 echo "[INFO] Installing python language server and tools"
-pip -q install python-lsp-server pylint isort black
+pip -q install python-lsp-server pylint isort black mypy
 
 
 # source virtual environment automatically next time we enter the directory
